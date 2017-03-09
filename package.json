@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ear78/explore-the-air#readme",
   "dependencies": {
+    "angular-route": "^1.6.3",
     "express": "^4.15.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
