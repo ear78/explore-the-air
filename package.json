@@ -1,0 +1,25 @@
+{
+  "name": "explore-the-air",
+  "version": "1.0.0",
+  "description": "Explore The Air",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ear78/explore-the-air.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ear78/explore-the-air/issues"
+  },
+  "homepage": "https://github.com/ear78/explore-the-air#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
