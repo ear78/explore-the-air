@@ -16,14 +16,8 @@
         <link rel="stylesheet" href="./build/css/main.css">
     </head>
     <body ng-controller="mainCtrl">
-        <header class="main-header">
-            <div class="hamburger-container">
-                <i class="material-icons">menu</i>
-            </div>
-            <div class="header-button-container">
-                <a href=""><button type="button" name="button">Login</button></a>
-            </div>
-        </header>
+        
+        <header-component></header-component>
 
         <!-- NG-VIEW PAGES -->
         <div ng-view></div>
@@ -46,5 +40,6 @@
         <script src="app.js"></script>
         <script src="controllers/mainCtrl.js"></script>
         <script src="controllers/homeCtrl.js"></script>
+        <script src="components/headerComponent.js"></script>
     </body>
 </html>

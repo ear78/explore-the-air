@@ -10,16 +10,44 @@
         text-transform: uppercase;
         margin-top: 13vh;
         margin-bottom: 5px;
+        transition: all .2s ease;
     }
     h5 {
         font-size: 1em;
         font-family: $lato;
         font-weight: 100;
         margin-bottom: 30px;
+        transition: all .2s ease;
     }
     img {
         width: 65px;
         height: auto;
+        transition: all .2s ease;
     }
 
+}
+
+@media screen and (min-width: 550px){
+    .home {
+        h1 {
+            font-size: 3em;
+        }
+        img {
+            width: 85px;
+        }
+    }
+}
+
+@media screen and (min-width: 767px){
+    .home {
+        h1 {
+            font-size: 4em;
+        }
+        h5 {
+            font-size: 1.25em;
+        }
+        img {
+            width: 115px;
+        }
+    }
 }
