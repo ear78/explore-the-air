@@ -51,7 +51,23 @@ table {
 body {
   background: url("../../img/isola1.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 95%;
   background-size: cover;
   height: 100vh;
   width: 100vw; }
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 0 20px; }
+  .main-header button {
+    background: rgba(250, 250, 250, 0.4);
+    border: none;
+    height: 32px;
+    width: 90px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    text-align: center; }

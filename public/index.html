@@ -4,10 +4,22 @@
         <meta charset="utf-8">
         <title>Explore The Air</title>
 
+        <!-- GOOGLE FONTS AND MATERIAL ICONS CDN -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+
+        <!-- MAIN CSS FILES -->
         <link rel="stylesheet" href="./build/css/main.css">
     </head>
     <body ng-controller="mainCtrl">
-
+        <header class="main-header">
+            <div class="hamburger-container">
+                <i class="material-icons">menu</i>
+            </div>
+            <div class="header-button-container">
+                <a href=""><button type="button" name="button">Login</button></a>
+            </div>
+        </header>
         <!-- NG-VIEW PAGES -- >
         <div ng-view></div>
 
