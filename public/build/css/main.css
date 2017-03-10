@@ -49,12 +49,23 @@ table {
   box-sizing: border-box; }
 
 body {
+  font-size: 16px;
   background: url("../../img/isola1.jpg");
   background-repeat: no-repeat;
-  background-position: 95%;
+  background-position: 98%;
   background-size: cover;
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  overflow: hidden; }
+
+a {
+  color: #000; }
+
+h1 {
+  font-size: 2.5em; }
+
+h4 {
+  font-size: 1.4em; }
 
 .main-header {
   display: flex;
@@ -63,7 +74,7 @@ body {
   align-items: center;
   padding: 0 20px; }
   .main-header button {
-    background: rgba(250, 250, 250, 0.4);
+    background: rgba(0, 0, 0, 0.125);
     border: none;
     height: 32px;
     width: 90px;
@@ -71,3 +82,42 @@ body {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     text-align: center; }
+
+.main-footer {
+  min-height: 200px; }
+  .main-footer .icons-container {
+    display: flex;
+    justify-content: center; }
+  .main-footer a {
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; }
+  .main-footer i {
+    padding: 0 8px; }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh; }
+  .home h1 {
+    font-size: 2.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 13vh;
+    margin-bottom: 5px; }
+  .home h5 {
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    margin-bottom: 30px; }
+  .home img {
+    width: 65px;
+    height: auto; }

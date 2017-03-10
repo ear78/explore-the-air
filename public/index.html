@@ -3,10 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Explore The Air</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- GOOGLE FONTS AND MATERIAL ICONS CDN -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
               rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300|Muli" rel="stylesheet">
+
 
         <!-- MAIN CSS FILES -->
         <link rel="stylesheet" href="./build/css/main.css">
@@ -20,14 +24,25 @@
                 <a href=""><button type="button" name="button">Login</button></a>
             </div>
         </header>
-        <!-- NG-VIEW PAGES -- >
+
+        <!-- NG-VIEW PAGES -->
         <div ng-view></div>
 
+        <footer class="main-footer">
+            <div class="icons-container">
+                <a href=""><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-tree" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </footer>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
 
         <script src="app.js"></script>
         <script src="controllers/mainCtrl.js"></script>
+        <script src="controllers/homeCtrl.js"></script>
     </body>
 </html>

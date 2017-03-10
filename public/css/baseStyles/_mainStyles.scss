@@ -1,14 +1,37 @@
+//// SASS VARIABLES //////////////
+
+$muli: 'Muli', sans-serif;
+$lato: 'Lato', sans-serif;
+$black: #000;
+
+//////////////////////////////////
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    font-size: 16px;
     background: url('../../img/isola1.jpg');
     background-repeat: no-repeat;
-    background-position: 95%;
+    background-position: 98%;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
+}
+
+a {
+    color: $black;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.4em;
 }
 
 .main-header {
@@ -18,7 +41,7 @@ body {
     align-items: center;
     padding: 0 20px;
     button {
-        background: rgba(250,250,250, 0.4);
+        background: rgba(0,0,0, 0.125);
         border: none;
         height: 32px;
         width: 90px;
@@ -26,5 +49,27 @@ body {
         box-shadow: 1px 1px 5px rgba(0,0,0,.1);
         text-transform: uppercase;
         text-align: center;
+    }
+}
+
+.main-footer {
+    min-height: 200px;
+    .icons-container {
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        border: 2px solid black;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    i {
+        padding: 0 8px;
     }
 }

@@ -1,9 +1,9 @@
-angular.module('myApp', [require('angular-route')])
+angular.module('myApp', ['ngRoute'])
 
     .config(['$routeProvider', function($routeProvider){
         $routeProvider
             .when('/', {
-                controller:'home',
+                controller:'homeCtrl',
                 controllerAs: 'home',
                 templateUrl: '../views/home.html'
             })
