@@ -1,20 +1,19 @@
 <header class="main-header">
     <div class="hamburger-container">
-        <i class="material-icons" ng-click='openMenu()'>menu</i>
+        <i class="material-icons" ng-click='$ctrl.openMenu()'>menu</i>
     </div>
     <div class="header-button-container">
         <a href=""><button type="button" name="button">Login</button></a>
     </div>
 </header>
 
-<div class="menu-modal">
-    <div class="menu-container">
-        <ul>
-            <li>item</li>
-            <li>item</li>
-            <li>item</li>
-            <li>item</li>
-        </ul>
-    </div>
-
+<div class="menu-modal" ng-hide="$ctrl.toggleMenu"></div>
+<div class="menu-container" ng-class="{ 'menu-active': $ctrl.isActive }">
+    <i class="material-icons menu-close" ng-click="$ctrl.openMenu()">close</i>
+    <ul>
+        <li>Info</li>
+        <li>item</li>
+        <li>item</li>
+        <li>Login</li>
+    </ul>
 </div>
