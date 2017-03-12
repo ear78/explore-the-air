@@ -10,10 +10,12 @@
 <div class="menu-modal" ng-hide="$ctrl.toggleMenu"></div>
 <div class="menu-container" ng-class="{ 'menu-active': $ctrl.isActive }">
     <i class="material-icons menu-close" ng-click="$ctrl.openMenu()">close</i>
+
+    <img ng-src="./img/etalogo.svg" alt="eta logo"/>
     <ul>
-        <li>Info</li>
-        <li>item</li>
-        <li>item</li>
-        <li>Login</li>
+        <a href="#!/info"><li>Info</li></a>
+        <a href="#!/packages"><li>Packages</li></a>
+        <a href="#!/info"><li>Pictures</li></a>
+        <a href="#!/login"><li>Login</li></a>
     </ul>
 </div>
